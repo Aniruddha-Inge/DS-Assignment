@@ -30,3 +30,6 @@ The application uses a healthcare dataset to predict medical conditions.
 - `healthcare_dataset.csv`: Healthcare dataset
 - `user_data.csv`: File for storing user-entered data
 
+<hr>
+
+For the insights such as if there is any co-relation between the Blood Group Type, Gender and the Medical Condition or not & The Average Billing Amount required to treat each medical Condition can be found in the `Healthcare Data Insights.ipynb` file
