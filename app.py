@@ -23,8 +23,8 @@ def index():
         user_data = pd.DataFrame({"Name": [name], "Gender": [gender], "Blood Group": [blood_group]})
         user_data.to_csv("user_data.csv", mode="a", index=False, header=not bool(pd.read_csv("user_data.csv").shape[0]))
 
-        return render_template("template/result.html", name=name, condition=most_common_condition)
-    return render_template("template/index.html")
+        return render_template("result.html", name=name, condition=most_common_condition)
+    return render_template("index.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
